@@ -1,0 +1,21 @@
+# Ambiente virtual
+venv/
+
+# Cache e temporários
+__pycache__/
+_tmp_previews/
+*.log
+
+# Saídas geradas
+output/
+
+# Entradas (não versionar)
+input_videos/
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Sistema
+.DS_Store
+Thumbs.db

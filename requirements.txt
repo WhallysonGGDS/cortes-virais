@@ -1,0 +1,6 @@
+openai-whisper
+torch
+ffmpeg-python
+python-dateutil
+pillow
+numpy
