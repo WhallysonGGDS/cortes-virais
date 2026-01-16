@@ -1,21 +1,56 @@
-# Ambiente virtual
+# ============================
+# Python / Virtualenv
+# ============================
 venv/
-
-# Cache e temporários
+.venv/
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ============================
+# Temporários do projeto
+# ============================
 _tmp_previews/
 *.log
+*.tmp
 
+# ============================
 # Saídas geradas
-output/
+# (mantém a pasta no repo se usar .gitkeep)
+# ============================
+output/*
+!output/.gitkeep
 
+# ============================
 # Entradas (não versionar)
-input_videos/
+# (mantém a pasta no repo se usar .gitkeep)
+# ============================
+input_videos/*
+!input_videos/.gitkeep
+
+# Bloqueia vídeos em qualquer lugar
 *.mp4
 *.mov
 *.mkv
 *.webm
+*.m4v
+*.avi
 
-# Sistema
+# ============================
+# Sistema / IDE
+# ============================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# ============================
+# Whisper / caches comuns
+# ============================
+*.pt
+*.bin
+*.cache
